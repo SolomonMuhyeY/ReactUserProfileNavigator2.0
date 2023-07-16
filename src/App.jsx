@@ -14,7 +14,7 @@ const listOfClients = client.map((cl) => {
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div className='w-full mx-auto'>
         <NavBar />
         <div className='client-container'>
           <Routes>
