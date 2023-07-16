@@ -7,4 +7,8 @@ img {
 }
 ul > li {
   margin: 0 0.45rem;
+  transition: all 2s ease;
+}
+ul > li:hover {
+  cursor: pointer;
 }

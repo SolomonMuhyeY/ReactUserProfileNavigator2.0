@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className='w-full mx-auto'>
         <NavBar />
-        <div className='w-4/5 grid grid-cols-1 mx-auto flex-wrap lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
+        <div className='w-3/5 mb-16 mt-8 grid grid-cols-1 mx-auto flex-wrap gap-2 lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
           <Routes>
             <Route
               path='/UserDescription/:id'
