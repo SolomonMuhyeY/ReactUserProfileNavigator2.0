@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className='w-full mx-auto'>
         <NavBar />
-        <div className='client-container'>
+        <div className='w-3/4 grid grid-cols-4 mx-auto'>
           <Routes>
             <Route
               path='/UserDescription/:id'
