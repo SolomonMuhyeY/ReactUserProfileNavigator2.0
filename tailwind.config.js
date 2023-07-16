@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        600: "600px",
+      },
+      transitionDuration: {
+        1500: "1500ms",
+      },
+    },
   },
   plugins: [],
 };

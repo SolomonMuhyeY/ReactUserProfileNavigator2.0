@@ -12,3 +12,6 @@ ul > li {
 ul > li:hover {
   cursor: pointer;
 }
+.user {
+  width: 400px;
+}
